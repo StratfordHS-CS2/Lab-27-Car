@@ -11,7 +11,8 @@ In this file, create a Car class that meets the following requirements.
 3. Create a method `drive` that takes no parameters.  This method should print a message saying that the car is driving and reduce the fuel level by one.  If there is no fuel, print an error message.
 4. Create a method `add_fuel` that accepts one parameter: how much fuel to add to the tank.  If this amount will overfill the tank then print an error message.
 5. Create a method `fill_tank` that takes no parameters.  All it does is fill the fuel tank.
-6. Create a method of your own to customize your car.
+6. Create a `__str__` method so that your car can be printed.
+7. Create a method of your own to customize your car.
 
 ### In `main.py`
 
